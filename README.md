@@ -1,3 +1,3 @@
 ```
-Simple Wordlist
+Simple BruteForce Wordlist
 ```
