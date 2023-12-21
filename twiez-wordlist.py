@@ -33,7 +33,7 @@ def main():
     length = int(input("Şifre uzunluğunu girin: "))
     use_lowercase = input("Küçük harf kullanılsın mı? (Y/n): ").lower() == 'e'
     use_uppercase = input("Büyük harf kullanılsın mı? (Y/n): ").lower() == 'e'
-    use_digits = input("Sayı kullanılsın mı? (E/H): ").lower() == 'e'
+    use_digits = input("Sayı kullanılsın mı? (Y/H): ").lower() == 'e'
     use_special_chars = input("Özel karakterler kullanılsın mı? (Y/n): ").lower() == 'e'
 
     generate_password_wordlist(length, use_lowercase, use_uppercase, use_digits, use_special_chars)
